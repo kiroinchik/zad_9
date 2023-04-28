@@ -1,0 +1,10 @@
+h1{
+    color:rgb(60, 23, 135);
+}
+
+div {
+    padding: 80px;
+    text-align: center;
+    background: rgb(175, 147, 231);
+    color: rgb(60, 23, 135);
+}
