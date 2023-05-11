@@ -1,10 +1,47 @@
 h1{
     color:rgb(72, 103, 25);
 }
-
-div {
+body {
+    margin: 0;
+}
+.header {
     padding: 80px;
     text-align: center;
     background: greenyellow;
     color: rgb(72, 103, 25);
+}
+@media screen and(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+div 
+{
+    padding: 80px;
+    text-align: center;
+    background: greenyellow;
+    color: rgb(72, 103, 25);
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(72, 103, 25);
+    padding: 14px 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: left;
+    background: rgb(72, 103, 25);
+    color: greenyellow;
+}
+.main {
+    flex: 70%;
+    background-color: greenyellow;
+    padding: 20px;
 }

@@ -64,13 +64,15 @@ body{
 
 .footer{
     padding: 20px;
-    text-align: center;
+    text-align: left;
     background: palevioletred;
     color: pink;
 }
 
-@media screen and(max-width: 700px) {
-    .row{
+@media screen and(max-width: 700px)
+{
+    .row
+    {
         flex-direction: column;
     }
     
